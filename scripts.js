@@ -7,7 +7,7 @@ function formatPrice(num) {
 
 async function loadProducts() {
   try {
-    const response = await fetch('https://jsonblob.com/api/1372562924698263552/');
+    const response = await fetch('https://raw.githubusercontent.com/rijwanul/GadgetShopJSON/refs/heads/main/list.json');
     if (!response.ok) throw new Error('Failed to fetch products');
     products = await response.json();
 
