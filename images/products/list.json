@@ -1,0 +1,110 @@
+[
+    {
+      "id": 1,
+      "name": "BM800 Pro Condenser Microphone",
+      "price": 2000,
+      "image": "https://i.ibb.co/6J14PNGk/bm800-pro-condenser-microphone-for-youtube-studio.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Boya MM1 Portable Microphone",
+      "price": 2300,
+      "image": "https://i.ibb.co/d0YmcKn4/Boya-MM1-Microphone.jpg"
+    },
+    {
+      "id": 3,
+      "name": "High-Resolution Digital Camera",
+      "price": 13000,
+      "image": "https://i.ibb.co/9HS2FZN4/camera.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Casio FX-991 Scientific Calculator",
+      "price": 2330,
+      "image": "https://i.ibb.co/CpV3qcqL/Casio-FX991-Calculator.webp"
+    },
+    {
+      "id": 5,
+      "name": "Epson 003 Black Ink Cartridge",
+      "price": 600,
+      "image": "https://i.ibb.co/Qj1dqG0Q/Epson-003-Black-Cartridg.webp"
+    },
+    {
+      "id": 6,
+      "name": "Epson Color Printer Model X",
+      "price": 13999,
+      "image": "https://i.ibb.co/bMkdxp3G/Epson-Printer.webp"
+    },
+    {
+      "id": 7,
+      "name": "Wireless GamePad Controller",
+      "price": 543,
+      "image": "https://i.ibb.co/kgr5fDts/GamePad.webp"
+    },
+    {
+      "id": 8,
+      "name": "High-Precision Gaming Mouse",
+      "price": 693,
+      "image": "https://i.ibb.co/35hpss5M/Gaming-Mouse.webp"
+    },
+    {
+      "id": 9,
+      "name": "Havit G89W Wireless Game Pad",
+      "price": 799,
+      "image": "https://i.ibb.co/r2QGTQjq/havit-g89w-wireless-game-pad-in-bd-at-bdshopcom.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Hiksemi 64GB Pen Drive",
+      "price": 4099,
+      "image": "https://i.ibb.co/ch3M9p56/Hiksemi-Pen-Drive.webp"
+    },
+    {
+      "id": 11,
+      "name": "Hohem i-Steady Gimbal Stabilizer",
+      "price": 7199,
+      "image": "https://i.ibb.co/hRfzY256/Hohem-i-Steady-Gimbal.webp"
+    },
+    {
+      "id": 12,
+      "name": "Logitech Mechanical Keyboard",
+      "price": 1224,
+      "image": "https://i.ibb.co/0VWRBYYh/Logitech-Keyboard.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Mi 20000mAh Power Bank",
+      "price": 3210,
+      "image": "https://i.ibb.co/6czXfQFg/mi-20000-mah-1.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Portable Electric Sewing Machine",
+      "price": 8710,
+      "image": "https://i.ibb.co/GvfSndFn/portable-electric-sewing-machine.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Redmi TV Soundbar 2.0",
+      "price": 23499,
+      "image": "https://i.ibb.co/3ykVb0fW/redmi-tv-soundbar-2.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Smartwatch Fitness Tracker",
+      "price": 2799,
+      "image": "https://i.ibb.co/rG0pNVz8/smartwatch.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Compact Bluetooth Speaker",
+      "price": 999,
+      "image": "https://i.ibb.co/7Mx73Vm/speaker.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Rapoo VT300 Optical Gaming Mouse",
+      "price": 677,
+      "image": "https://i.ibb.co/B2HHk29D/rapoo-vt300-ir-optical-gaming-mouse.jpg"
+    }
+  ]

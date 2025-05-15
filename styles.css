@@ -1,0 +1,88 @@
+body {
+    background-color: #f8f9fa;
+  }
+  
+  h2 {
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Banner image smaller */
+  .banner-img {
+    max-height: 300px;
+    object-fit: cover;
+  }
+  
+  /* Product images square */
+  .card-img-top {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+  
+  /* Remove spin buttons on quantity input */
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  input[type="number"]::-webkit-inner-spin-button, 
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* Cart quantity buttons spacing */
+  #cart-items button {
+    width: 32px;
+    height: 32px;
+    font-size: 18px;
+    line-height: 1;
+    padding: 0;
+  }
+  
+  /* Fix for delete button going outside cart box */
+  #cart-items > div {
+    flex-wrap: wrap;          /* allow wrapping if needed */
+    gap: 0.5rem;              /* add spacing between items */
+  }
+  
+  #cart-items > div > div:nth-child(4) {
+    /* The delete button container */
+    flex-shrink: 0;           /* prevent shrinking */
+    margin-left: 0.5rem;      /* spacing from price */
+  }
+  
+  #cart-items > div > div {
+    min-width: 0;             /* prevent overflow */
+  }
+  
+  /* Bonus: Adjust width of name container from 160px to 140px for better spacing */
+  #cart-items > div > div:first-child {
+    min-width: 140px !important;
+    max-width: 140px !important;
+  }
+  
+  /* Navbar sticky adjustment with z-index */
+  .navbar {
+    z-index: 1050;  /* Make sure the navbar is always above other sticky elements */
+  }
+  
+  /* Sticky cart fix, ensure it's above navbar when scrolling */
+  #cart {
+    z-index: 1040;  /* Sticky cart should be below the navbar */
+  }
+  
+  /* Change theme color to #0F0065 */
+  .navbar, .btn-primary, .bg-primary {
+    background-color: #0F0065 !important;
+  }
+  
+  .footer {
+    background-color: #0F0065;
+    color: white;
+  }
+  
+  /* Make sure cart background is visible and sticks well */
+  #cart .card {
+    background-color: white;
+  }
+  
