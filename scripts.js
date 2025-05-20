@@ -28,7 +28,6 @@ function sendSMS() {
     .then(response => response.json())
     .then(result => {
         console.log('Success:', result);
-        alert('SMS sent successfully!');
     })
     .catch((error) => {
         console.error('Error:', error);
