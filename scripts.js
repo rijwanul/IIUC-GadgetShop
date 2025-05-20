@@ -31,7 +31,6 @@ function sendSMS() {
     })
     .catch((error) => {
         console.error('Error:', error);
-        alert('Failed to send SMS.');
     });
 }
 
@@ -231,7 +230,7 @@ document.getElementById("checkout-form").addEventListener("submit", function (e)
       </div>
       <div class="mb-3">
         <label for="customer-phone" class="form-label">Phone</label>
-        <input type="tel" class="form-control" id="customer-phone" required value="01234567890" />
+        <input type="tel" class="form-control" id="customer-phone" required value="01270205731" />
       </div>
       <div class="mb-3">
         <label for="customer-address" class="form-label">Address</label>
