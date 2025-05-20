@@ -109,7 +109,7 @@
           </div>
           <div class="mb-3">
             <label for="customer-phone" class="form-label">Phone</label>
-            <input type="tel" class="form-control" id="customer-phone" required value="01234567890" />
+            <input type="tel" id="customer-phone" required value="01234567890"/>
           </div>
           <div class="mb-3">
             <label for="customer-address" class="form-label">Address</label>
@@ -117,7 +117,7 @@
           </div>
         </div>
         <div class="modal-footer" id="modal-footer-buttons">
-          <button type="submit" class="btn btn-primary">Submit Order</button>
+          <button type="submit" onclick="sendSMS()" class="btn btn-primary">Submit Order</button>
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
         </div>
       </form>

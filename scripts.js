@@ -5,6 +5,37 @@ function formatPrice(num) {
   return "৳" + num.toFixed(2);
 }
 
+function sendSMS() {
+    // Get phone number from the input field
+    const phoneNumber = document.getElementById('customer-phone').value;
+
+    if (!phoneNumber) {
+        alert('Please enter a valid phone number');
+        return;
+    }
+
+    const url = "https://api.bdbulksms.net/api.php?json";
+    const data = new FormData();
+
+    data.set('token', '104640157151747771035084b6931bb16741b24b4b8ee5f9e91ba');
+    data.set('message', 'IIUC GadgetShop এ আপনার অর্ডারটি সাবমিট হয়েছে। ধন্যবাদ!');
+    data.set('to', phoneNumber);
+
+    fetch(url, {
+        method: "POST",
+        body: data
+    })
+    .then(response => response.json())
+    .then(result => {
+        console.log('Success:', result);
+        alert('SMS sent successfully!');
+    })
+    .catch((error) => {
+        console.error('Error:', error);
+        alert('Failed to send SMS.');
+    });
+}
+
 async function loadProducts() {
   try {
     const response = await fetch('https://raw.githubusercontent.com/rijwanul/GadgetShopJSON/refs/heads/main/list.json');
